@@ -5,9 +5,10 @@ def gcd(a,b):
 
     while(minvalue>0):
         if(a%minvalue ==0) and (b%minvalue ==0):
-            return minvalue 
-        minvalue = minvalue - 1 
+            return minvalue
         
+        minvalue = minvalue - 1 
+
     else:
         return -1 
 
